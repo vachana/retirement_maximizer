@@ -7,6 +7,130 @@ a:hover {
   @apply text-primary-darker;
 }
 
+.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  line-height: 100px;
+  border-radius: 50%;
+  left: 23%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: blue;
+}
+.quest {
+  text-align:left;
+
+}
+
+.policy {
+  text-align:left;
+  color: #5F9EA0;
+  font-size: 27px;
+}
+
+.cent {
+  text-align:center;
+}
+
+.rgt {
+  text-align:right;
+}
+
+.dd {
+  position : absolute;
+  left: 49%;
+}
+.col {
+  color:red;
+  font-size: 50px;
+}
+
+.colnew {
+  color: #0047AB;
+  font-size: 50px;
+}
+        
+
+.sz {
+  font-size: 30px;
+}
+
+.ast:after {
+    content:"*   ";
+    color: red;
+  
+}
+
+.img {
+  height: "100px";
+   width: "100px";
+}
+.rct {
+  width: 187px;
+  height: 50px;
+  position: absolute;
+  line-height: 50px;
+  left: 21%;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  background: blue;
+}
+.szone {
+  color:blue;
+  font-size: 20px;
+  position: absolute;
+  left:14%;
+}
+.box {
+   margin-left: 225px;
+    width: 500px;
+    height: 530px; 
+   border: 8px solid black;
+   text-align:left;
+}
+
+.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  text-decoration: none;
+  color: initial;
+  background-color: whitesmoke;
+  border: 8px solid black;
+  position : absolute;
+  left :20%;
+}
+
+.boxone {
+  margin-left: 225px;
+   width: 100px;
+   height: 100px; 
+  border: 8px solid black;
+  text-align:left;
+  background-color: blue;
+}
+
+.buttonstyle {
+    background-color: #ae0700; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position : absolute;
+    left: 49%;
+}
+
+
 @tailwind components;
 
 @tailwind utilities;

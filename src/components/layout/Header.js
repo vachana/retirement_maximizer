@@ -8,27 +8,30 @@ const Header = () => (
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
-          <LogoIcon />
+          {/* <LogoIcon /> */}
         </div>
-        Lander
+        <b>Retirement Maximizer</b>
       </div>
-      <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+      <div className="flex mt-4 sm:mt-0 " >
+        <AnchorLink className="px-4" href="#contactUs">
+          Register
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Services
+        <AnchorLink className="px-4" href="#aboutus">
+          About Us
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
+        <AnchorLink className="px-4" href="#cpp">
+          CPP
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#oas">
+          OAS
+        </AnchorLink>
+        <AnchorLink className="px-4" href="#faq">
+          FAQ
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
+      {/* <div className="hidden md:block">
         <Button className="text-sm">Start Free Trial</Button>
-      </div>
+      </div> */}
     </div>
   </header>
 );

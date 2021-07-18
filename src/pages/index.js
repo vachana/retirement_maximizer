@@ -10,6 +10,7 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import ContactForm from '../components/ContactForm'
+import { StaticImage } from "gatsby-plugin-image"
 
 const Index = () => (
 
@@ -37,7 +38,7 @@ const Index = () => (
           {/* <p className="mt-4 text-gray-600">Seating is limited, so sign up today!</p> */}
         </div>
         <div className="lg:w-1/2">
-        <img class ="img" src="https://ibb.co/QbQT14f" alt="Retirement"/>
+        <StaticImage src="../images/HFlocation.png" alt="Retirement" />
         <p class = "sz"><b>University Golf Club <br/>Salons I and II<br/></b></p>
         5185 University Blvd,Vancouver,BC,V6T 1X5<br/>
         <b>Seating is limited, so sign up today!</b>

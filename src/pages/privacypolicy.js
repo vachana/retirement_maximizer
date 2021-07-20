@@ -1,12 +1,19 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import LabelText from '../components/LabelText';
+import { Link } from "gatsby"
 
 const Index = () => (
 
    
         <section id="cpp" className="py-20 lg:pt-32">
+          <div>
+      <Link class="buttonPrv" to="/">HOME</Link>
+    </div>
       <div className="container mx-auto text-center">
+      {/* <AnchorLink className="px-4" href="#contactUs">
+          About Us
+        </AnchorLink> */}<br/><br/><br/>
         <LabelText className="text-black-800 colnew"><b>Retirement Maximizer</b></LabelText>
         <br/><br/>
         <div className="container mx-auto text-center">
@@ -40,8 +47,7 @@ const Index = () => (
         <LabelText className="text-black-800 policy"><b>Privacy Contact Information</b></LabelText>
           <p class="quest">If you have any questions, concerns, or comments about our privacy policy you may contact us using the information below:</p>
           <p class="quest"><b>By E-mail : retirementmaximizer@gmail.com</b>
-          <br/>
-          <b>By Phone : +1(236) 521-5708</b></p>
+          </p>
           <br/>
           <p class="quest">We reserve the right to make changes to this policy. Any changes to this policy will be posted.</p>
 

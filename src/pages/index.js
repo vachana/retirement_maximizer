@@ -15,20 +15,25 @@ import { StaticImage } from "gatsby-plugin-image"
 const Index = () => (
 
   <Layout>
-    <section className="pt-20 md:pt-40">
+    <article>
+    {/* <section className="pt-20 md:pt-40"> */}
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          <b class = "sz">WEALTH, PROSPERITY & WINE SERIES</b>
-          <p class = "szone"><b>PREPARING FOR RETIREMENT SEMINAR</b></p>
+          <b class = "szplus">REPARING FOR RETIREMENT SEMINAR</b>
+          <p class = "szone"><b>WEALTH, PROSPERITY & WINE SERIES</b></p>
            
           <br/><br/><br/>
-          <div class="circle">July 28</div>
+          <div class="circle"><p class = "topmonth">July</p> <p class="topdate">&nbsp;&nbsp;&nbsp;&nbsp;28<sup>th</sup></p></div>
           {/* <p className="text-xl lg:text-2xl mt-6 font-light">
             <p><br/><br/><br/><b>NO CHARGE TO ATTEND</b></p>
           </p> */}
           <br/><br/><br/><br/><br/>
           <a href= "#contactUs" class="button"><b>REGISTER NOW!</b></a>
-          <br/><br/><br/>
+          <br/>
+          <div className="w-12 mr-3 rarr"><StaticImage src="../images/right_arr.png" alt="Retirement" /></div>
+          
+          <div className="w-12 mr-3 larr"><StaticImage src="../images/left_arr.png" alt="Retirement" /></div>
+          <br/><br/>
         <div class="rct">NO CHARGE TO ATTEND!</div>
 
           {/* <p className="mt-8 md:mt-12">
@@ -37,55 +42,69 @@ const Index = () => (
           <br/><br/><br/><br/><br/>
           {/* <p className="mt-4 text-gray-600">Seating is limited, so sign up today!</p> */}
         </div>
-        <div className="lg:w-1/2">
-        <StaticImage src="../images/HFlocation.png" alt="Retirement" />
-        <p class = "sz"><b>University Golf Club <br/>Salons I and II<br/></b></p>
-        5185 University Blvd,Vancouver,BC,V6T 1X5<br/>
-        <b>Seating is limited, so sign up today!</b>
-        </div>
-      </div>
-    </section>
-    <section id="aboutus" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
-        {/* <LabelText className="text-black-800 col"><b></b></LabelText> */}
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/2 quest">
-            <p ><b>COVID-19 Precautions: The health and safety of our attendees,hosts, and general public is our number one priority.All of our live events will adhere to all local and venue-specific precautions and guidelines including,but not limited to social distancing,sanitation,and capacity limitations.</b></p>
+          <div className="sm:w-1/2 quest desc">
+            
             <p>
+              <b class = "sz">Workshop Description : </b>
               <br/>
-              <b class = "sz">Course Description : </b>
-              <br/>
-              <p class= "quest">You'll leave this workshop having learned the differences, benefits and nuances of corporate, private and public retirement savings plans. You'll also learn about "3 D's" of tax planning and how to make it work precisely for you and your family.We'll discuss withdrawing your income and preserving your hard-earned assets.</p>
-              <br/><p class="quest">The taxman is always going to get paid, but there are things you can do to minimize the amount he gets and to make the most of your hard-earned retirement income.</p>
+              <p class= "quest">This workshop will help you understand the differences, features and benefits of your <br/>private and government run retirement savings plans and pensions. You will learn key<br/> features of CPP and OAS and will help answer questions like: “Should I take CPP before <br/>age 65 or delay to be able to receive a larger monthly benefit?” You will learn about OAS <br/>clawback and strategies to avoid having to repay your OAS payments back to the CRA. <br/>You will learn about tax planning strategies like pension splitting, how to access tax free <br/>investment income and strategies to withdraw registered assets (RSPs, RIFs, LIFs, etc.)<br/> in the most tax efficient manner. You will also learn about the silent dangers of inflation <br/>and estate planning strategies so that your loved ones and not the CRA will be your estate’s <br/>biggest beneficiary. You will also learn about the benefits of owning alternative asset classes<br/> in your portfolio so that you can reduce market risks without sacrificing expected returns.</p>
+              <br/><p class="quest">Learn how to do this and more at this free workshop.</p>
             </p>
             </div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
             
-          <div className="w-full sm:w-1/2  box" >
+            </article>
+         
+        {/* <div className="lg:w-1/2">
+        <StaticImage src="../images/HFlocation.png" alt="Retirement" />
+        <p class = "sz"><b>University Golf Club <br/>Salons I and II<br/></b></p>
+        5185 University Blvd,Vancouver,BC,V6T 1X5<br/>
+        <b>Seating is limited, so sign up today!</b>
+        </div> */}
+      </div>
+      
+    {/* </section> */}
+
+    <section id="aboutus" className="py-20 lg:pt-32">
+    <div className="container mx-auto px-8 lg:flex">
+    <div className="lg:w-1/2">
+        <StaticImage src="../images/HFlocation.png" alt="Retirement" />
+        <p class = "sz"><b>University Golf Club &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salons I and II <StaticImage src="../images/logo_hf.png" alt="Retirement" /></b></p>
+        
+
+        5185 University Blvd,Vancouver,BC,V6T 1X5<br/>
+        <b>Seating is limited, so sign up today!</b>
+        <br/><br/>
+        <p ><b>COVID-19 Precautions: The health and safety of our attendees, hosts, and general public is our number one priority.All of our live events will adhere to all local and venue-specific precautions and guidelines including, but not limited to social distancing,sanitation,and capacity limitations.</b></p>
+        </div>
+        <div className="w-full sm:w-1/2  box" >
             <h2 class="cent"><u>TOPICS TO BE COVERED:</u></h2>
+            <br/>
             <ul >
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;Learn the ins and outs of government,corporate and personal retirement investments and plans.</li>
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;Find out about tax planning basics and strategies that could allow you to keep more of your retirement income.</li>
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;Withdrawal 101: What you need to know about how to get your money(hint:one size does NOT fit all!).</li>
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;You CAN protect more of your assets with careful with careful planning and a working knowledge of the tax system.</li>
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;By keeping your net income low,you can reap benefits like preserving tax credits,government benefits and being in a lower tax bracket.</li>
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;There is no right way to planfor retiremet - but the wrong way could cost you.</li>
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;By knowing how and why the system works as it does, you can plan for a stree-free and relaxing retirement.</li>
-              <li>&nbsp;&nbsp;&#xbb;&nbsp;You can arm yourself with the knowledge that will point you on the path to retirement now.</li>
+              <li>&nbsp;&nbsp;•	&nbsp;40 years in retirement – are you ready?</li>
+              <li>&nbsp;&nbsp;•	&nbsp;Learn about tax planning and strategies that could allow &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you to keep more of your retirement income.</li>
+              <li>&nbsp;&nbsp;•	&nbsp;Find out about protecting your portfolio during turbulent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;times.</li>
+              <li>&nbsp;&nbsp;•	&nbsp;What you need know about CPP, OAS and <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other&nbsp; government benefits.</li>
+              <li>&nbsp;&nbsp;•	&nbsp;You CAN protect more of your assets with careful planning and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a working knowledge of the tax system.</li>
+              <li>&nbsp;&nbsp;•	&nbsp;By keeping your net income low, you can reap benefits like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preserving tax credits, government benefits, being in a<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lower tax bracket.</li>
+              <li>&nbsp;&nbsp;•	&nbsp;There is no right way to plan for retirement, but the wrong way &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;could cost you.</li>
+              <li>&nbsp;&nbsp;•	&nbsp;Estate Planning - transfer your assets to beneficiaries while &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minimizing tax.</li>
             </ul> 
           </div>
-         
-        </div>
+      </div>
+      <div className="container mx-auto text-center">
+        {/* <LabelText className="text-black-800 col"><b></b></LabelText> */}
+      
         <div>
             <p>
               <br/><br/>
               <b class = "sz">Attend this seminar and learn about : </b>
               <br/><br/>
               <p class= "quest">Private retirement plans - You can set yourself up to manage and protect your assets and enjoy your golden years.</p>
-              <br/><p class="quest">Don't miss out on a chance to learn from tax and retirement experts,get your questions answered and walk away with information that will potentially save you not only money but worry and stress.</p>
+              <br/><p class="quest">Don't miss out on a chance to learn from tax and retirement experts, get your questions answered and walk away with information that will potentially save you not only money but worry and stress.</p>
               <br/><p class="quest">You've worked hard for decades. On the verge of retirement, you may have questions about your savings and how to best protect them.You might also want to learn more about which government benefits you're entitled to - and when you can start receiving them.</p>
-              <br/><p class="quest">Join us at the <b>University Golf Club on Wednesday, July 28th from 7:00 PM - 8:30 PM</b> for this educational workshop.There is no charge to attend.This event is more suitable for those with $500,000 of investable assets or more.</p>
-              <br/><p class="quest">Our goal is to teach you how to plan, what you need to know about the tax system and how to set yourself up for success so you can optimize your retirement income.</p>
+              <br/><p class="quest">Join us at the <b>University Golf Club on Wednesday, July 28th from 7:00 PM - 8:30 PM</b> for this educational workshop. There is no charge to attend. This event is most suitable for those with $500,000 of investible assets or more.</p>
+              <br/><p class="quest">Our goal is to teach you how to plan what you need to know about the tax system, and how to set yourself up for success so you can optimize your retirement income.</p>
             </p>
           </div>
       </div>
@@ -207,9 +226,15 @@ const Index = () => (
       <div className="container mx-auto text-center">
         <LabelText className="text-black-800 col"><b>Canadian Pension Plan</b></LabelText>
         <div >
-          <p class="quest">The Canadian Pension Plan (CPP) provides contributors a replacement of earnings in retirement and in cases of death or disability.It applies to almost all individuals who work in Canada outside Quebec.</p>
+          <p class="quest">The Canadian Pension Plan (CPP) is a monthly, taxable benefit that replaces part of your income when you retire. If you qualify, you will receive the CPP retirement pension for the rest of your life. You can choose to start collecting CPP payments anytime after your 60th birthday. The normal age to start collecting CPP payments is age 65. If you decide to take CPP prior to age 65 your payments will be reduced by 7.2% for each year prior to age 65. If you decide to take CPP after the age 65, your payments will be increased by 8.4% for each year after age 65 up to age 70. After age 70 you will not receive any additional annual increase in your CPP payments. You must apply for CPP, it will not automatically start.</p>
           <br/>
-          <p class="quest">The CPP provides a monthly benefit to eligible applicants.You must apply for CPP,it does not start automatically.The CPP is based on how much you have contributed and how long you have been making contributions to the CPP at the time you become eligible.</p>         
+          <p class="quest">Monthly CPP payments are based on your earnings and: <br/>
+            <ul>
+              <li>&nbsp;•	&nbsp;Your average earnings throughout your working life</li>
+              <li>&nbsp;•&nbsp;	Your contributions to the CPP program</li>
+              <li>&nbsp;•&nbsp;	The age you decide to start your CPP retirement pension.</li>
+            
+            </ul> </p>         
         </div>
       </div>
     </section>
@@ -217,9 +242,11 @@ const Index = () => (
       <div className="container mx-auto text-center">
         <LabelText className="text-black-800 col"><b>Old Age Security</b></LabelText>
         <div >
-          <p class="quest">The Old Age Security(OAS). program is one of the cornerstones of Canada's public retirement income system. The objective of the OAS program is to provide a base upon which individuals can complement other income from other sources,such as the Canada Pension or Quebec Pension Plan,employer-sponsored pension plans and personal registered retirement savings plan,as well as investments and personal savings,to address their financial circumstances.</p>
+          <p class="quest">The Old Age Security (OAS) are monthly benefit payments to most residents and citizens of Canada who have reached their 65th birthday. To qualify for a full OAS pension, you must have lived in Canada for at least 40 years after age 18.  You will receive a partial pension benefit if you have not resided in Canada for the full 40 years. The partial pension benefit is 1/40th of the full pension amount for each complete year you lived in Canada after age 18.</p>
           <br/>
-          <p class="quest"> Paymount amounts for the Old Age Security benefits are based on your marital status and level of income. They are not considered taxable income.</p>         
+          <p class="quest">Unlike the CPP, Old Age Security benefits are not tied to your employment history. If you decide to take OAS after the age 65, your payments will be increased by 7.2% for each year after age 65 up to age 70. After age 70 you will not receive any additional annual increase in your OAS payments. You will have to pay taxes on your Old Age Security pension payments.</p>         
+          <br/>
+          <p class="quest">If your income is above a certain threshold (for example $79,054 in 2020) you will have to repay all or part of your OAS payments depending on how high your income was in the year prior. Repayment of benefits is done by reducing the following year’s OAS payments, this is known as OAS clawback.</p>
         </div>
       </div>
     </section>
@@ -265,6 +292,7 @@ const Index = () => (
         <ContactForm></ContactForm>
     </header>
 </section>
+
   </Layout>
 );
 

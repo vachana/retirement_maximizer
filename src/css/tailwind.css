@@ -12,18 +12,39 @@ a:hover {
   height: 100px;
   position: absolute;
   line-height: 100px;
-  border-radius: 50%;
+  border-radius: 65%;
   left: 23%;
-  font-size: 20px;
+  font-size: 13px;
   color: #fff;
   text-align: center;
-  background: blue;
+  background: #5F9EA0;
 }
 .quest {
   text-align:left;
 
 }
 
+.larr {
+    position : absolute;
+    left: 35%;
+}
+
+.topdate {
+  position : absolute;
+  top: 25%;
+  font-size: 28px;
+}
+
+.topmonth {
+  position : absolute;
+  top: 18%;
+  font-size: 15px;
+}
+
+.rarr {
+  position : absolute;
+  left: 16%;
+}
 .policy {
   text-align:left;
   color: #5F9EA0;
@@ -42,6 +63,12 @@ a:hover {
   position : absolute;
   left: 49%;
 }
+
+.desc {
+  position : absolute;
+  left: 50%;
+  right:20%
+}
 .col {
   color:red;
   font-size: 50px;
@@ -49,7 +76,7 @@ a:hover {
 
 .colnew {
   color: #0047AB;
-  font-size: 50px;
+  font-size: 60px;
 }
         
 
@@ -57,6 +84,9 @@ a:hover {
   font-size: 30px;
 }
 
+.szplus {
+  font-size: 32px;
+}
 .ast:after {
     content:"*   ";
     color: red;
@@ -64,22 +94,23 @@ a:hover {
 }
 
 .img {
-  height: "100px";
-   width: "100px";
+  height: "50px";
+  width: "50px";
 }
+
 .rct {
-  width: 187px;
-  height: 50px;
+  width: 210px;
+  height: 40px;
   position: absolute;
   line-height: 50px;
-  left: 21%;
+  left: 20%;
   font-size: 15px;
   color: #fff;
   text-align: center;
-  background: blue;
+  background: #5F9EA0;
 }
 .szone {
-  color:blue;
+  color:#5F9EA0;
   font-size: 20px;
   position: absolute;
   left:14%;
@@ -87,7 +118,7 @@ a:hover {
 .box {
    margin-left: 225px;
     width: 500px;
-    height: 530px; 
+    height: 450px; 
    border: 8px solid black;
    text-align:left;
 }
@@ -106,6 +137,29 @@ a:hover {
   border: 8px solid black;
   position : absolute;
   left :20%;
+}
+
+.article {
+  
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.buttonPrv {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  text-decoration: none;
+  color: initial;
+  background-color: whitesmoke;
+  border: 8px solid black;
+  position : absolute;
+  left :10%;
 }
 
 .boxone {

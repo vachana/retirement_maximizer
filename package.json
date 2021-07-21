@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "gatsby": "^3.0.3",
+    "gatsby-background-image-es5": "^1.5.3",
     "gatsby-plugin-emotion": "^6.0.0",
     "gatsby-plugin-image": "^1.9.0",
-    "gatsby-plugin-sharp": "^3.9.0",
+    "gatsby-plugin-sharp": "^3.10.0",
     "gatsby-source-filesystem": "^3.9.0",
     "gatsby-theme-codebushi": "^1.0.0",
-    "gatsby-transformer-sharp": "^3.9.0",
+    "gatsby-transformer-sharp": "^3.10.0",
+    "gbimage-bridge": "^0.1.4",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.1"

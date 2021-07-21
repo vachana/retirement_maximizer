@@ -8,11 +8,10 @@ a:hover {
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 110px;
   position: absolute;
-  line-height: 100px;
-  border-radius: 65%;
+  border-radius: 92%;
   left: 23%;
   font-size: 13px;
   color: #fff;
@@ -25,8 +24,8 @@ a:hover {
 }
 
 .larr {
-    position : absolute;
-    left: 35%;
+    position : relative;
+    left: 75%;
 }
 
 .topdate {
@@ -35,15 +34,15 @@ a:hover {
   font-size: 28px;
 }
 
-.topmonth {
+.toptime {
   position : absolute;
-  top: 18%;
-  font-size: 15px;
+  top: 60%;
+  font-size: 13px;
 }
 
 .rarr {
-  position : absolute;
-  left: 16%;
+  position : relative;
+  left: 11%;
 }
 .policy {
   text-align:left;
@@ -78,19 +77,37 @@ a:hover {
   color: #0047AB;
   font-size: 60px;
 }
+
+.colcadet {
+  color: #5F9EA0;
+  font-size: 25px;
+}
+
+.colcadetonly {
+  color: #5F9EA0;
+}
         
+
+.szp {
+  font-size: 40px;
+}
 
 .sz {
   font-size: 30px;
 }
 
 .szplus {
-  font-size: 32px;
+  font-size: 30px;
 }
 .ast:after {
     content:"*   ";
     color: red;
   
+}
+
+.rt {
+  position: absolute;
+  left: 50%;
 }
 
 .img {
@@ -115,10 +132,10 @@ a:hover {
   position: absolute;
   left:14%;
 }
+
 .box {
-   margin-left: 225px;
-    width: 500px;
-    height: 450px; 
+    /* width: 520px;
+    height: 455px;  */
    border: 8px solid black;
    text-align:left;
 }
@@ -139,12 +156,6 @@ a:hover {
   left :20%;
 }
 
-.article {
-  
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-}
 
 .buttonPrv {
   -webkit-appearance: button;
@@ -181,7 +192,7 @@ a:hover {
     display: inline-block;
     font-size: 16px;
     position : absolute;
-    left: 49%;
+    left: 42%;
 }
 
 
